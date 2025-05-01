@@ -974,7 +974,7 @@ lvgl:
             align: CENTER
             text_font: montserrat_18
             text_color: my_gray
-            x: 42
+            x: 80 # changed from originlal 42 because no logo
             y: -309
             text: "\uF1EB"
 # AQI box
