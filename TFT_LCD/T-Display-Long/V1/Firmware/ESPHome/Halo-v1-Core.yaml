@@ -199,12 +199,12 @@ touchscreen:
 web_server:
   port: 80
 
-image:
-  - file: https://yashmulgaonkar.github.io/assets/YM.png
-    id: ym_logo
-    resize: 25x25
-    type: RGB565
-    transparency: alpha_channel
+# image:
+#   - file: https://yashmulgaonkar.github.io/assets/YM.png
+#     id: ym_logo
+#     resize: 25x25
+#     type: RGB565
+#     transparency: alpha_channel
 
 color:
   - id: my_red
@@ -955,12 +955,12 @@ lvgl:
       bg_color: my_black
       scrollbar_mode: "OFF"
       widgets:
-        - image:
-            id: ym_image          
-            src: ym_logo
-            align: CENTER
-            x: 80
-            y: -309
+        # - image:
+        #     id: ym_image          
+        #     src: ym_logo
+        #     align: CENTER
+        #     x: 80
+        #     y: -309
         - label:
             id: timeVal
             align: LEFT_MID
