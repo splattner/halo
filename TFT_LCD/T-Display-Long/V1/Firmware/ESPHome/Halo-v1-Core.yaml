@@ -90,8 +90,8 @@ interval:
           - lvgl.widget.update:
               id: wifi_stat
               text_color: my_green
-          - lvgl.widget.show:
-              id: ym_image              
+          # - lvgl.widget.show:
+          #     id: ym_image              
         else:
           - lvgl.widget.update:
               id: wifi_stat
